@@ -1,0 +1,4 @@
+com\spmu\scirateapi\user\services\UserService.class
+com\spmu\scirateapi\user\models\UserEntity_.class
+com\spmu\scirateapi\user\models\UserEntity.class
+com\spmu\scirateapi\user\services\UserInterface.class
