@@ -7,13 +7,20 @@ package com.spmu.scirateapi.user.services;
 
 /**
  *
- * @author tishkovav
+ * @author artemy
  */
+import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.*;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.Response;
 
 @Path("/user")
 public interface UserInterface {
   @GET
+  @Path("{id}")
+  Response getUser(@PathParam("id") Integer id,  @Context HttpServletRequest request);
+  
+  @GET
   @Path("/")
-  String echo(@QueryParam("q") String original);
+  Response getMe( @Context HttpServletRequest request );  
 }

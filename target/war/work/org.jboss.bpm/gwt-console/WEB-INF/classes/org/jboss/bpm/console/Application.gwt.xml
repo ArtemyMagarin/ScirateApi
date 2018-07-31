@@ -1,0 +1,62 @@
+<module>
+
+  <!-- Inherit the core Web Toolkit stuff. -->
+  <inherits name='com.google.gwt.user.User' />
+  <inherits name='com.google.gwt.json.JSON'/>
+  <inherits name="com.google.gwt.i18n.I18N"/>
+  <inherits name="com.google.gwt.user.ImageBundle"/>
+  <inherits name="com.google.gwt.xml.XML" />
+
+  <!-- Add gwt-log support, default level `DEBUG` -->
+  <inherits name="com.allen_sauer.gwt.log.gwt-log-DEBUG" />
+
+  <!-- Inherit Mosaic Web Toolkit stuff.                          -->
+  <inherits name='org.gwt.mosaic.Mosaic' />  
+  <inherits name='org.gwt.mosaic.forms.Forms' />
+
+  <!-- Includes the public resources used by the GWT Mosaic       -->
+  <!-- themes. Those files do not inject a style sheet into the   -->
+  <!-- application.                                               -->
+  <!--inherits name="org.gwt.mosaic.theme.standard.StandardResources" />
+  <inherits name="org.gwt.mosaic.theme.chrome.ChromeResources" />
+  <inherits name="org.gwt.mosaic.theme.dark.DarkResources" /-->
+  <inherits name="org.gwt.mosaic.theme.aegean.AegeanResources" />
+
+  <!-- Inherit the default GWT Mosaic style sheet. You can change -->
+  <!-- the theme of your GWT Mosaic application by uncommenting   -->
+  <!-- any one of the following lines.                            -->
+  <!-- <inherits name='org.gwt.mosaic.theme.standard.Standard' />  -->
+  <!-- <inherits name="org.gwt.mosaic.chrome.Chrome"/>            -->
+  <!-- <inherits name="org.gwt.mosaic.dark.Dark"/>                -->
+  <inherits name='org.gwt.mosaic.theme.aegean.Aegean' />
+
+  <!-- mvc4g -->
+  <inherits name='com.mvc4g.Mvc4gModule'/>
+  
+  <generate-with class="org.jboss.bpm.console.rebind.WorkspaceGenerator" >
+    <when-type-assignable class="org.jboss.bpm.console.client.WorkspaceLauncher"/>
+  </generate-with>
+
+  <!-- Add the `WARN` and `DEBUG` compile time log level -->
+  <!--extend-property name="log_level" values="DEBUG,WARN"/-->
+
+  <!-- Loggers Enabled by default -->
+  <set-property name="log_ConsoleLogger" value="ENABLED" />
+  <set-property name="log_DivLogger" value="DISABLED" />
+  <set-property name="log_FirebugLogger" value="DISABLED" />
+  <set-property name="log_GWTLogger" value="ENABLED" />
+  <set-property name="log_SystemLogger" value="ENABLED" />
+
+  <!-- Loggers Disabled by default -->
+  <set-property name="log_RemoteLogger" value="DISABLED" />
+  <set-property name="log_WindowLogger" value="DISABLED" />
+
+  <!-- Specify the app entry point class. -->
+  <entry-point class="org.jboss.bpm.console.client.Application" />
+
+  <servlet path="/xhp" class="jmaki.xhp.XmlHttpProxyServlet"/>
+
+  <!-- Specify a css to load into your gwt application -->
+  <stylesheet src='console.css' />
+
+</module>

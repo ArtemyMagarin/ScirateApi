@@ -1,0 +1,17 @@
+{"xhp": {
+    "version": "1.1",
+    "services": [
+        {"id": "default",
+         "url":"http://localhost:8080/gwt-console-server",
+         "passthrough":true,
+         "username":"peter",
+         "password":"password"
+        },
+        {"id": "birt",
+         "url":"http://localhost:8080/gwt-console-server",
+         "passthrough":true,
+         "contentType":"text/html"         
+        }
+    ]
+  }
+}

@@ -1,4 +1,7 @@
 com\spmu\scirateapi\user\services\UserService.class
 com\spmu\scirateapi\user\models\UserEntity_.class
+Helpers\HibernateUtil.class
 com\spmu\scirateapi\user\models\UserEntity.class
+Helpers\TokenHelper.class
 com\spmu\scirateapi\user\services\UserInterface.class
+Helpers\UserSignInHelper.class

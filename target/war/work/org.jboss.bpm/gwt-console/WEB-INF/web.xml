@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!--servlet>
+      <servlet-name>com.jsos.httpproxy.HttpProxyServlet/org.jboss.bpm.console.Application/proxy</servlet-name>
+      <servlet-class>com.jsos.httpproxy.HttpProxyServlet</servlet-class>
+      <init-param>
+         <param-name>host</param-name>
+         <param-value>http://localhost:8080/</param-value>
+      </init-param>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>com.jsos.httpproxy.HttpProxyServlet/org.jboss.bpm.console.Application/proxy</servlet-name>
+      <url-pattern>/org.jboss.bpm.console.Application/proxy</url-pattern>
+   </servlet-mapping-->
+  <!--inserted by gwt-maven-->
+  <servlet>
+    <servlet-name>com.allen_sauer.gwt.log.server.RemoteLoggerServiceImpl/org.jboss.bpm.console.Application/gwt-log</servlet-name>
+    <servlet-class>com.allen_sauer.gwt.log.server.RemoteLoggerServiceImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>com.google.gwt.libideas.logging.server.RemoteLoggingServiceImpl/org.jboss.bpm.console.Application/logging</servlet-name>
+    <servlet-class>com.google.gwt.libideas.logging.server.RemoteLoggingServiceImpl</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>jmaki.xhp.XmlHttpProxyServlet/org.jboss.bpm.console.Application/xhp</servlet-name>
+    <servlet-class>jmaki.xhp.XmlHttpProxyServlet</servlet-class>
+  </servlet>
+  <!--inserted by gwt-maven-->
+  <servlet-mapping>
+    <servlet-name>com.allen_sauer.gwt.log.server.RemoteLoggerServiceImpl/org.jboss.bpm.console.Application/gwt-log</servlet-name>
+    <url-pattern>/org.jboss.bpm.console.Application/gwt-log</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>com.google.gwt.libideas.logging.server.RemoteLoggingServiceImpl/org.jboss.bpm.console.Application/logging</servlet-name>
+    <url-pattern>/org.jboss.bpm.console.Application/logging</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jmaki.xhp.XmlHttpProxyServlet/org.jboss.bpm.console.Application/xhp</servlet-name>
+    <url-pattern>/org.jboss.bpm.console.Application/xhp</url-pattern>
+  </servlet-mapping>
+</web-app>
+

@@ -1,0 +1,67 @@
+Reachable types computed on: Thu Jul 09 12:48:20 CEST 2009
+com.allen_sauer.gwt.log.client.ClientStackTraceElement
+   Serialization status
+      Instantiable
+   Path
+      'com.allen_sauer.gwt.log.client.ClientStackTraceElement' is reachable as a subtype of type 'class com.allen_sauer.gwt.log.client.ClientStackTraceElement'
+      Type 'com.allen_sauer.gwt.log.client.ClientStackTraceElement' is reachable from array type 'com.allen_sauer.gwt.log.client.ClientStackTraceElement[]'
+      'com.allen_sauer.gwt.log.client.ClientStackTraceElement[]' is reachable from field 'clientStackTrace' of type 'com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+      'com.allen_sauer.gwt.log.client.WrappedClientThrowable' is reachable as a subtype of type 'class com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+      Started from 'com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+
+com.allen_sauer.gwt.log.client.ClientStackTraceElement[]
+   Serialization status
+      Instantiable
+   Path
+      'com.allen_sauer.gwt.log.client.ClientStackTraceElement[]' is reachable from field 'clientStackTrace' of type 'com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+      'com.allen_sauer.gwt.log.client.WrappedClientThrowable' is reachable as a subtype of type 'class com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+      Started from 'com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+
+com.allen_sauer.gwt.log.client.WrappedClientThrowable
+   Serialization status
+      Instantiable
+   Path
+      'com.allen_sauer.gwt.log.client.WrappedClientThrowable' is reachable as a subtype of type 'class com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+      Started from 'com.allen_sauer.gwt.log.client.WrappedClientThrowable'
+
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException
+   Serialization status
+      Instantiable
+   Path
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.Exception
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.RuntimeException
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+
+java.lang.String
+   Serialization status
+      Instantiable
+   Path
+      'java.lang.String' is reachable as a subtype of type 'class java.lang.String'
+      Started from 'java.lang.String'
+
+java.lang.Throwable
+   Serialization status
+      Field serializable
+   Path
+      'java.lang.Throwable' is reachable as a supertype of type 'class java.lang.Exception'
+      'java.lang.Exception' is reachable as a supertype of type 'class java.lang.RuntimeException'
+      'java.lang.RuntimeException' is reachable as a supertype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException' is reachable as a subtype of type 'class com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+      Started from 'com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException'
+

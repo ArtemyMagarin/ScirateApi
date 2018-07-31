@@ -1,0 +1,292 @@
+
+.bpm-layout {
+  border: 1px solid green;
+  margin: 10px;
+}
+
+.bpm-header{
+  background-color:#ffffff;  
+}
+
+.bpm-header-left {
+  background-color:#ffffff;
+  vertical-align:bottom;
+  margin-left:15px;
+}
+
+.bpm-header-right {
+  background-color:#ffffff;
+  vertical-align:bottom;
+  margin-right:15px;
+}
+
+.bpm-label-header {
+  background-color:#F8F8F8;
+  font-weight:BOLD;
+  padding-bottom:2px;
+  padding-left:5px;
+  margin-bottom:5px;
+}
+.bpm-header-userinfo {
+  font-family: sans-serif;
+  width:150px;
+}
+
+.bpm-header-versioninfo {
+  font-family: sans-serif;
+  color: #C8C8C8;
+}
+
+.bpm-property-image {
+  padding-top:10px;  
+}
+
+.bpm-filter-panel {
+  padding-top:5px;
+  padding-right:2px;
+  background-color:#dfe8f6;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+.bpm-editor-info {
+  font-family: sans-serif;
+  font-size:18px;  
+}
+
+.bpm-editor-header {
+  font-family: sans-serif;
+  background-color: #E0E0E0;  
+}
+
+.bpm-menu {
+  height: 50px;
+  width: 100%;
+  border: 1px solid;
+}
+
+.bpm-workspace {
+  width: 100%;
+  height:100%;
+}
+
+.bpm-label {
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.bpm-ListHeaderRow {
+  font-weight: bold;
+}
+
+.bpm-EvenRow {
+  background-color: #f0f4f8;
+}
+
+.bpm-FieldValue {
+
+}
+
+.bpm-EditorHeader {
+
+}
+
+.bpm-loading-image {
+  background-color:#ffffff;    
+  width:16px;
+  height:16px;  
+}
+
+.bpm-ProcessImage {
+  border: 0px;
+}
+
+.bpm-SplitPanel {
+  border: 1px dashed green;
+  vertical-align: top;
+  position:relative; top:5px; left:5px;
+}
+
+.piechart-types {
+  font-size: small;
+  list-style-type:decimal;
+  font-family: sans-serif;
+}
+
+.bpm-help-panel {
+  background-color:#F0F0F0;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.bpm-help-icon {
+  background-image: url( images/icons/14.png)
+}
+
+.bpm-report-icon {
+  background-image: url( images/icons/31.png)
+}
+
+.bpm-process-icon {
+  background-image: url( images/icons/41.png)
+}
+
+.bpm-task-icon {
+  background-image: url( images/icons/29.png)
+}
+
+.bpm-instance-icon {
+  background-image: url( images/icons/05_1.png)
+}
+
+.bpm-settings-icon {
+
+}
+
+.bpm-operation-ui {
+  font-size: 10px;
+}
+
+.bpm-tools-icon {
+  background-image: url( images/icons/36.png)
+}
+
+.bpm-switch-context-icon {
+  background-image: url( images/icons/13.png)
+}
+
+.bpm-comment-icon {
+  background-image: url( images/icons/27.png)
+}
+
+.bpm-enalrge-icon {
+  background-image: url( images/icons/49.png)
+}
+
+.login-panel-content {
+  text-align: center;
+}
+
+.bpm-examine-icon {
+  background-image: url( images/icons/examine.png)
+}
+
+.bpm-add-icon {
+  background-image: url( images/icons/add.png)
+}
+
+.bpm-lock-icon-small {
+  background-image: url( images/icons/lock_small.png)
+}
+
+.bpm-remove-icon {
+  background-image: url( images/icons/remove.png)
+}
+
+.bpm-play-icon {
+  background-image: url( images/icons/play.png)
+}
+
+.bpm-stop-icon {
+  background-image: url( images/icons/stop.png)
+}
+
+.bpm-pause-icon {
+  background-image: url( images/icons/pause.png)
+}
+
+div.activeNode {
+  position:absolute;
+  border-width:1px;
+  border-style:solid;
+  border-color:#339933;
+}
+
+div.activeNode-header {
+  position:absolute;
+  overflow:hidden;
+}
+
+div.activeNode-header-link  {
+  cursor:default;
+  font-family:sans-serif;
+  font-size:10px;
+  white-space:nowrap;
+  color:#ffffff;
+  padding-left:3px;
+  padding-right:3px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#339933;
+  background-color:#339933;
+}
+
+div.activeNode-header-link a {
+  color:#ffffff;
+  text-decoration:none;
+}
+
+div.activeNode-header-link a:hover {
+  text-decoration:underline;
+}
+
+/* start - override gwt-log styles */
+.log-panel {
+  background-color: #ECF2FC;
+  border: 0px solid black;
+  margin: 0px;
+  padding:10px;
+}
+
+.log-panel .log-scroll-panel {
+  width: 100% !important;
+  height: 80px !important;
+}
+
+.log-panel .log-text-area,.log-panel BUTTON {
+  font-size: 8pt;
+  margin: 0em;
+}
+
+.log-resize-se {
+  visibility:hidden;
+}
+
+/* end - override gwt-log styles */
+
+/* start - custom widgets */
+.bpm-detail-panel {
+  border:1px solid #E8E8E8;  
+}
+
+.bpm-prop-grid {
+    
+}
+
+.bpm-prop-grid-even {
+  background: #F8F8F8;  
+}
+
+.bpm-prop-grid-odd {
+
+}
+
+.bpm-prop-grid-label {
+  
+}
+
+/* end - custom widgets */
+
+.gwt-SuggestBoxPopup { z-index:100000; border: 1px solid #ffffff;}
+.gwt-SuggestBoxPopup .item { padding: 2px;}
+.gwt-SuggestBoxPopup .item-selected { background-color: #C3D9FF; padding: 1px;}
+
+.bpm-graphView-activityImage {
+  background-image: url(images/icons/play_red_big.png);
+  background-repeat:no-repeat;
+  width:16px;
+  height:16px;
+}
+
+.bpm-window-layout {  
+  margin: 1px;
+}
